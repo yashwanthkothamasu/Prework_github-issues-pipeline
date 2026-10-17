@@ -18,9 +18,11 @@ Reasoning: of the easy free options, GitHub is the one that naturally forces you
 
 **Metric 1: issues opened vs closed per week (backlog flow).**
 This answers "is the project keeping up with incoming issues?" A manager reads it in seconds. I show it as net flow (opened minus closed) with a four week average, so the direction is clear instead of two tangled lines. Above zero the backlog grew that week, below zero it shrank.
+![Backlog flow chart](backlog_flow.png)
 
 **Metric 2: median days to close an issue, by the month it was opened.**
 This answers the different question "how fast do issues typically get resolved?" Metric 1 is about volume, metric 2 is about speed. Together they give a fuller picture.
+![Time to close chart](time_to_close.png)
 
 ## Data modelling (raw, clean, reporting)
 
