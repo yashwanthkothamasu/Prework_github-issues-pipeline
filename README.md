@@ -68,7 +68,6 @@ Where it helped: scaffolding the pagination loop, explaining what each line does
 Where I corrected or drove the decisions myself:
 - The first chart was two lines that tracked too closely to read. I rejected it and redesigned it as net flow, which is far clearer.
 - The first version of metric 2 bucketed by close date and used the average. I caught that this let old issues distort the result and mislead the reader, and I changed it to group by open month and use the median.
-- I removed a "read with caution" label from the chart because it was clumsy, and handle that caveat in words instead.
 
 ## Setup
 
